@@ -9,7 +9,7 @@ object stringType {
     val s1: String = "test"
     val s2: String = "t" + "est"
     val s3: String = "Test"
-    /home/congsl/apps/java/scalademo/
+    
     assert(s1 == s2)
     assert(s1.equals(s2))
     println(s1.getBytes)
