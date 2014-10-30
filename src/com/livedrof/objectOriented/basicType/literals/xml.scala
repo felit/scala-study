@@ -8,6 +8,6 @@ object xml {
     val xml = <book>
       <title>hello</title>
     </book>
-    println(xml)
+    println(xml.toString())
   }
 }
